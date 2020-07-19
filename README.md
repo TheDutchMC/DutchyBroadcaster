@@ -1,6 +1,8 @@
 # DutchyBroadcaster
 Minecraft 1.16 and up
 
+DutchyBroadcast allows you to send a message to your players regularly, and automatically. You can send messages both as normal text, or as a tellraw.
+
 ## Commands
 - /reloadconfig: Reloads the config from disk
 
