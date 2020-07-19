@@ -4,11 +4,11 @@ Minecraft 1.16 and up
 ## Commands
 /reloadconfig: Reloads the config from disk
 
-##Permissions
-broadcaster.*: Grants the user all DutchyBroadcaster permissions
-broadcaster.reloadconfig: Allows the user to use /reloadconfig
+## Permissions
+broadcaster.*: Grants the user all DutchyBroadcaster permissions [Default: OP]
+broadcaster.reloadconfig: Allows the user to use /reloadconfig [Default: OP]
 
-##Config
+## Config
 This is the default config.yml
 ```#Should the broadcaster be enabled. Default: true
 enableBroadcast: "true"
