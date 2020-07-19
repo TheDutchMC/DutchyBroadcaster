@@ -1,0 +1,18 @@
+name: DutchyBroadcaster
+main: nl.thedutchmc.broadcaster.Broadcaster
+version: 1.0
+api-version: 1.16
+description: A configurable broadcaster plugin
+author: TheDutchMC
+commands:
+ reloadconfig:
+  description: Reload the configuration file
+permissions:
+ broadcaster.*:
+  description: Grants all broadcaster permissions
+  default: op
+  children:
+   broadcaster.reloadconfig: true
+ broadcaster.reloadconfig:
+  description: Grants the permission to reload the config
+  default: op
